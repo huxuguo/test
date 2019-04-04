@@ -1,0 +1,478 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+body{font-size:14px; font-family:"微软雅黑";}
+img{border:none;display:inline-block;}
+li{list-style:none;}
+input{outline:none; border:none; }
+a{text-decoration:none;cursor: pointer;}
+
+h3{
+  font-size: 30px;
+  text-align: center;
+    padding-top: 65px;
+}
+.bannery{
+    max-width: 100%;
+    min-width: 1200px;
+}
+.bannery img {
+    display: block;
+    width: 100%;
+}
+.huaweiti{
+    max-width: 100%;
+    min-width: 1200px;
+    height: 490px;
+}
+.huaweiti .tixi{
+    width: 1200px;
+    height: 490px;
+    margin:0 auto;
+    padding:50px 20px;
+}
+.huaweiti .tixi .title{
+    line-height: 25px;   
+}
+.huaweiti .tixi .tiimg{
+    display: inline-block;
+    margin-top:20px;
+}
+.huaweiti .tixi .tiimg li{
+    width: 304px;
+    height: 290px;
+    float: left;
+    margin-left:124px;
+}
+.huaweiti .tixi .tiimg li img{
+    display: block;
+    width: 304px;
+    height: 207px;
+}
+.huaweiti .tixi .tiimg li .nameylop{
+    display: block;
+    width: 304px;
+    height: 83px;
+    text-align: center;
+    padding-top:15px;
+    line-height: 25px;
+}
+/*华为全线产品课程体系*/
+.chanpi{
+    max-width: 100%;
+    min-width: 1200px;
+    height: 690px;
+    background-color:#f3f3f3;
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 65px;
+}
+.chanpi ul{
+    width: 1200px;
+    height: 488px;
+    margin:0 auto;
+}
+.chanpi ul li{
+   width: 232px;
+   height: 216px;
+   float: left;
+   border: 1px solid #e5e5e5;
+   box-shadow: 0 0 5px #999;
+   margin-left:10px;
+   margin-top:30px;
+}
+.chanpi ul li img{
+   display: block;
+   width: 230px;
+   height: 167px;
+}
+.chanpi ul li p{
+   width: 230px;
+   height:49px;
+   line-height: 49px;
+   text-align: center;
+}
+/*华为课程体系都考什么？*/
+.lopkao{
+    max-width: 100%;
+    min-width: 1200px;
+    height:730px;
+    background-color:#fff;
+}
+/*常见问题*/
+.chanwen{
+    max-width: 100%;
+    min-width: 1200px;
+    height:370px;
+    background-color:#f3f3f3;
+}
+.chanwen .wenmain{
+    width: 1200px;
+    height: 370px;
+    margin:0 auto;
+}
+.chanwen .wenmain .wenleft{
+     width: 660px;
+    height: 200px;
+    float: left;
+    border-right:1px dashed #999;
+    padding:10px 60px;
+    margin-top:30px;
+}
+.chanwen .wenmain .wenleft p img{
+    display: block;
+     width:23px;
+    height: 29px;
+    float: left;
+}
+.chanwen .wenmain .wenleft p span{
+    display: block;
+     width:200px;
+    height: 29px;
+    float: left;
+    line-height: 29px;
+    margin-left:10px;
+    font-weight:bolder;
+    font-size:16px;
+}
+.chanwen .wenmain .wenleft ul{
+    display: inline-block;
+     width:540px;
+    height: 29px;
+} 
+.chanwen .wenmain .wenleft ul li{
+   float:left;
+   margin-left:78px;
+   line-height: 40px;
+}
+.chanwen .wenmain .wenleft ul li a{
+   color: #000;
+}
+.chanwen .wenmain .wenright{
+    width: 540px;
+    height: 200px;
+    float: right;
+     padding:10px 60px;
+     margin-top:30px;
+}
+.chanwen .wenmain .wenright p img{
+    display: block;
+     width:23px;
+    height: 29px;
+    float: left;
+}
+.chanwen .wenmain .wenright p span{
+    display: block;
+     width:200px;
+    height: 29px;
+    float: left;
+    line-height: 29px;
+    margin-left:10px;
+    font-weight:bolder;
+    font-size:16px;
+}
+.chanwen .wenmain .wenright ul{
+    display: inline-block;
+     width:420px;
+    height: 29px;
+} 
+.chanwen .wenmain .wenright ul li{
+   float:left;
+   margin-left:60px;
+   line-height: 40px;
+}
+.chanwen .wenmain .wenright ul li a{
+   color: #000;
+}
+/*一路走来，支撑我们更加努力的是来自你们的认可*/
+.wait{
+    max-width: 100%;
+    min-width: 1200px;
+    height:730px;
+    background-color:#fff;
+}
+.wait .waitmian{
+    width: 1200px;
+    height:730px;
+    margin:0 auto;
+}
+.wait .waitmian img{
+     display: block;
+    width: 1092px;
+    height:525px;
+    margin:60px auto 0 auto;
+}
+/*东方瑞通，华为培训和考试人数高于同行84%*/
+.waittwo{
+    max-width: 100%;
+    min-width: 1200px;
+    height:500px;
+    background-color:#f3f3f3;
+}
+.waittwo .waittwomian{
+    width: 1200px;
+    height:500px;
+    margin:0 auto;
+}
+.waittwo .waittwomian img{
+     display: block;
+    width: 612px;
+    height:271px;
+    margin:50px auto 0 auto;
+}
+/*东方瑞通华为实验室*/
+.waitthere{
+    max-width: 100%;
+    min-width: 1200px;
+    height:587px;
+    background-color:#fff;
+}
+.waitthere .waittheremian{
+    width: 1200px;
+    height:587px;
+    margin:0 auto;
+}
+.waitthere .waittheremian img{
+     display: block;
+    width: 1196px;
+    height:391px;
+    margin:30px auto 0 auto;
+}
+/*师资力量*/
+.teacherzi{
+    max-width: 100%;
+    min-width: 1200px;
+    height:720px;
+}
+.teacherzi .mianzhong{
+    width: 1200px;
+    height:720px;
+    margin:0 auto;
+}
+.teacherzi .mianzhong .tianyi{
+  line-height:30px;
+}
+.teacherzi .mianzhong .tianzong{
+  width:1200px; 
+  height:420px;
+  margin-top:30px;
+}
+.teacherzi .mianzhong .tianzong .tianleft{
+  width:702px; 
+  height:324px;
+  float: left;
+}
+.teacherzi .mianzhong .tianzong .tianright{
+  width:450px; 
+  height:420px;
+  float: right;
+  border:1px solid #999;
+  padding:20px 30px;
+}
+/*东方瑞通华为培训开课计划*/
+.jikaihua{
+    max-width: 100%;
+    min-width: 1200px;
+    height:435px;
+    background-color: #f3f3f3;
+}
+.jikaihua .jihuanmain{
+    width: 1200px;
+    height:435px;
+    margin:0 auto;
+}
+.jikaihua .jihuanmain table{
+    width: 1200px;
+    height:280px;
+    margin-top:20px;
+}
+.jikaihua .jihuanmain table tr th{
+    text-align:left;
+}
+/*底部浮动*/
+ form{
+    width: 1200px;
+    height: 100px;
+    margin:0 auto;
+}
+form input{
+    width: 170px;
+    height: 40px;
+    border:1px solid #999;
+    padding:5px 10px;
+    margin:30px 0;
+}
+#sumit{
+    width: 230px;
+    height: 40px;
+    background-color: #eb6100;
+    border:none;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+
+
+/*切换*/
+#outer {width:1200px;margin:0 auto;margin-top:100px;}
+#tab {overflow:hidden;zoom:1;width:680px;height: 45px;margin:0 auto;}
+#tab li {
+  float:left;
+  height:45px;  
+  cursor:pointer; 
+  line-height:30px;
+  text-align:center;
+  width:180px;
+  line-height: 45px;
+  font-size: 18px;
+  margin-left:70px;
+  color: #fff;
+    background: #2fa0ec;
+}
+#tab li.current {color:#fff;background:#055fa7;width:180px;}
+#content {background:url(../images/weihot.png) no-repeat;background-size: 100% 100%;}
+#content .ulp{line-height:25px;display:none;  margin:0 30px;padding:10px 0;}
+
+
+/*1*/
+#outerp {width:1000px;height:390px;margin:70px auto;}
+#outerp .gong1{width:270px;height:290px;float: left;padding:50px 10px;}
+#tabp {overflow:hidden;zoom:1;height: 390px;width:177px;float: left;}
+#tabp li {
+  cursor:pointer;
+  width:175px;
+    height: 83px;
+     text-align: center;
+    line-height: 83px;
+    color: #055fa7;
+    font-size: 16px;
+    border:1px solid #055fa7;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+#tabp li.currentp {
+  width:175px;
+    height: 83px;
+    border:1px solid #055fa7;
+    background-color: #055fa7;
+    text-align: center;
+    line-height: 83px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+}
+#contentp{
+  float: right;
+  width: 505px;
+  height: 390px;
+  border-left:1px dashed #999;
+}
+#contentp ul {
+   width: 445px;
+    display: none;
+    padding: 20px 30px;
+    line-height: 25px;
+    font-size: 14px;
+}
+#contentp ul p span{
+  color:#e71f19;
+}
+#contentp .zixun{
+  width:259px;
+  height: 53px;
+  margin:20px auto  0 auto;
+}
+
+/*2*/
+#outerp2 {width:1000px;height:390px;margin:70px auto;}
+#outerp2 .gong1{width:270px;height:290px;float: left;padding:50px 10px;}
+#tabp2 {overflow:hidden;zoom:1;height: 390px;width:177px;float: left;}
+#tabp2 li {
+  cursor:pointer;
+  width:175px;
+    height: 83px;
+     text-align: center;
+    line-height: 83px;
+    color: #055fa7;
+    font-size: 16px;
+    border:1px solid #055fa7;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+#tabp2 li.currentp2 {
+  width:175px;
+    height: 83px;
+    border:1px solid #055fa7;
+    background-color: #055fa7;
+    text-align: center;
+    line-height: 83px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+}
+#contentp2{
+  float: right;
+  width: 505px;
+  height: 390px;
+  border-left:1px dashed #999;
+}
+#contentp2 ul {
+   width: 445px;
+    display: none;
+    padding: 20px 30px;
+    line-height: 25px;
+    font-size: 14px;
+}
+#contentp2 ul p span{
+  color:#e71f19;
+}
+
+/*3*/
+#outerp3 {width:1000px;height:390px;margin:70px auto;}
+#outerp3 .gong1{width:290px;height:390px;float: left;padding:50px 10px;}
+#tabp3 {overflow:hidden;zoom:1;height: 390px;width:177px;float: left;}
+#tabp3 li {
+  cursor:pointer;
+  width:175px;
+    height: 83px;
+     text-align: center;
+    line-height: 83px;
+    color: #055fa7;
+    font-size: 16px;
+    border:1px solid #055fa7;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+#tabp3 li.currentp3 {
+  width:175px;
+    height: 83px;
+    border:1px solid #055fa7;
+    background-color: #055fa7;
+    text-align: center;
+    line-height: 83px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+}
+#contentp3{
+  float: right;
+  width: 505px;
+  height: 390px;
+  border-left:1px dashed #999;
+}
+#contentp3 ul {
+   width: 445px;
+    display: none;
+    padding: 20px 30px;
+    line-height: 25px;
+    font-size: 14px;
+}
+#contentp3 ul p span{
+  color:#e71f19;
+}

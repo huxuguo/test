@@ -1,0 +1,29 @@
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+/* case */
+
+.case_box{position:relative;width:382px;height:379px;overflow:hidden}
+.case_box p{z-index:2;position:absolute;text-indent:-9999px;width:14px;height:24px;top:40%;cursor:pointer}
+.case_box .prev{text-indent:-9999px;background:url(../images/miop1_07.jpg) no-repeat;left:0px}
+.case_box .next{background:url(../images/miop1_03.png) no-repeat;top:40%;right:0px}
+.case_box ul{position:absolute;height:382px;overflow:hidden;top:0px;left:0px}
+.case_box ul li{width:382px;float:left;height:379px;}
+.case_box ul li .zhong{width:262px;height:302px;border:1px solid #999;margin:0 auto;}
+.case_box ul li .zhong img{display:block;width:262px;height:171px;}
+.case_box ul li .zhong .zitilop{padding:15px;line-height: 25px;height:130px;font-size: 12px;}
+.case_box ul li .zhong a img{display: block;width: 158px;height: 37px;margin:20px auto 0 auto;}
+.case_box ul li dl.case_info{line-height:17px;margin:95px 0px 0px 475px;width:295px;zoom:1;color:#616741;font-size:13px;overflow:hidden}
+.case_box ul li dl.case_info dd{text-indent:26px}
+
+
+.case_box ul li.case_2 dl{margin-top:150px}
+.case_box ul li.case_3 dl{margin-top:135px}
+.case_box ul li.case_4 dl{margin-top:110px}
+.case_box ul li.case_5 dl{margin-top:120px}
+.case_box ul li.case_6 dl{margin-top:115px}
+
+.case_info_add dd{line-height:22px}
+
+.case_box ol{position:absolute;bottom:16px;left:50%;margin:0 0 0 -65px;height:12px;z-index:99;}
+.case_box ol li{float:left;margin:0 4px;display:inline;width:12px;height:12px;line-height:999em;/*background:url(../images/pagination.png) no-repeat;overflow:hidden;*/cursor:pointer;}
+.case_box ol li.active{background-position:0 -12px;}

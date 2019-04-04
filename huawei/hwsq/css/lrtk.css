@@ -1,0 +1,46 @@
+*{padding:0;margin:0}
+ol,ul,li{list-style:none}
+img{border:none}
+a:link,a:visited,a:hover{ text-decoration:none;}
+#chat_f1,#chat_f2{font-size:12px}
+#chat_f1{position:fixed;left:10px;top:220px;width:93px;z-index: 1010;}
+#chat_f1_main{height:74px;background:url(/assets/app/js/front/top3/images/nro.png) no-repeat}
+#close{display:block;width:17px;height:17px;margin-left:76px;cursor:pointer;}
+.a_kf,.a_sh{ width:70px; height:20px; display:inline-block; margin:0 6px;}
+.a_kf{ margin-top:65px;}
+/*#chat_f1_bottom{height:3px;width:82px;overflow:hidden;background:url(../images/c2.gif) 0px -160px no-repeat }*/
+.chat_f1_expr{width:82px;height:0px;}
+.list{height:45px;text-align:center;border:2px solid #fff;border-top:none;overflow:hidden;color:#787878;background:#fff }
+.name{height:45px;line-height:45px;}
+.namey{height:45px;line-height:45px;background-color:#eb6100; }
+.namey a{color:#fff;cursor:pointer;}
+.name a{color:#fff;}
+.current{border-left-color:#fff}
+.arrow{color:#fff}
+.detail{position:absolute;margin-left:-222px;margin-top:-26px;display:none;width:200px;padding:10px;border:1px solid #dbdbdb;background:#fff;line-height:18px}
+.send_sms{display:inline-block;width:109px;height:25px;vertical-align:middle}
+.mt{margin:2px 0}
+.mt5{margin-top:5px}
+.chat_f1_expr .list .detail .border{position:absolute;width:1px;height:25px;margin-left:210px;background:#fff;margin-top:-10px}
+#chat_f2{z-index: 1005;display:none;position:fixed;left:5px;top:220px;border:1px solid #ccc;background:#fff;padding:1px 3px;width:2em;color:#F60;cursor:pointer;}
+
+
+
+#chat_f1y,#chat_f2y{font-size:12px}
+#chat_f1y{position:fixed;right:10px;top:220px;width:93px;z-index: 1010;}
+#chat_f1_main{height:74px;background:url(../images/nro.png) no-repeat;cursor:pointer;}
+#closey{display:block;width:17px;height:17px;margin-left:76px;cursor:pointer;}
+.a_kf,.a_sh{ width:70px; height:20px; display:inline-block; margin:0 6px;}
+.a_kf{ margin-top:65px;}
+/*#chat_f1_bottom{height:3px;width:82px;overflow:hidden;background:url(../images/c2.gif) 0px -160px no-repeat }*/
+.chat_f1_expr{width:82px;height:0px;}
+.list{height:45px;text-align:center;border:2px solid #fff;border-top:none;overflow:hidden;color:#787878;background:#fff }
+.name a{color:#fff;}
+.current{border-left-color:#fff}
+.arrow{color:#fff}
+.detail{position:absolute;margin-left:-222px;margin-top:-26px;display:none;width:200px;padding:10px;border:1px solid #dbdbdb;background:#fff;line-height:18px}
+.send_sms{display:inline-block;width:109px;height:25px;vertical-align:middle}
+.mt{margin:2px 0}
+.mt5{margin-top:5px}
+.chat_f1_expr .list .detail .border{position:absolute;width:1px;height:25px;margin-left:210px;background:#fff;margin-top:-10px}
+#chat_f2y{z-index: 1005;display:none;position:fixed;right:5px;top:220px;border:1px solid #ccc;background:#fff;padding:1px 3px;width:2em;color:#F60;cursor:pointer;}

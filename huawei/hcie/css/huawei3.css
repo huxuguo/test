@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+body{font-size:14px; font-family:"微软雅黑";}
+img{border:none;display:inline-block;}
+li{list-style:none;}
+input{outline:none; border:none; }
+a{text-decoration:none;cursor: pointer;}
+
+h3{
+  font-size: 30px;
+  text-align: center;
+    padding-top: 65px;
+}
+.bannery{
+    max-width: 100%;
+    min-width: 1200px;
+}
+.bannery img {
+    display: block;
+    width: 100%;
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 65px;
+}
+/*东方瑞通HCIE 养成记*/
+.zhengm{
+    max-width: 100%;
+    min-width: 1200px;
+    height:685px;
+   background:url(../images/lan.png) no-repeat;
+   background-size: 100% 100%;
+}
+.zhengm .wenlop{
+  width: 1200px;
+  height: 490px;
+  margin:0 auto;
+}
+.zhengm .wenlop .on1{
+  width: 378px;
+  height: 489px;
+  float: left;
+  background:url(../images/bi.png) no-repeat;
+  padding:100px 30px 30px 30px;
+  line-height: 25px;
+  font-size: 15px;
+}
+.zhengm .wenlop .on1 p{
+ margin-bottom: 30px;
+}
+.zhengm .wenlop .on2{
+  width: 378px;
+  height: 489px;
+  float: left;
+  background:url(../images/po.png) no-repeat;
+  margin-left:33px;
+   padding:100px 30px 30px 30px;
+  line-height: 25px;
+  font-size: 15px;
+}
+.zhengm .wenlop .on2 p{
+ margin-bottom:15px;
+}
+.zhengm .wenlop .on3{
+  width: 378px;
+  height: 489px;
+  float: left;
+  background:url(../images/you.png) no-repeat;
+  margin-left:33px;
+   padding:100px 30px 30px 30px;
+  line-height: 25px;
+  font-size: 15px;
+}
+.zhengm .wenlop .on3 p{
+ margin-bottom:30px;
+}
+/*按钮*/
+.chanwen{
+    max-width: 100%;
+    min-width: 1200px;
+    height:370px;
+    background-color:#f3f3f3;
+}
+/*HCIE常见问题*/
+.btnpo{
+    max-width: 100%;
+    min-width: 1200px;
+    height:120px;
+}
+.btnpo img{
+    display: block;
+    width: 232px;
+    margin:60px auto 0 auto;
+}
+.chanwen .wenmain{
+    width: 1200px;
+    height: 370px;
+    margin:0 auto;
+}
+.chanwen .wenmain .wenleft{
+     width: 660px;
+    height: 200px;
+    float: left;
+    border-right:1px dashed #999;
+    padding:10px 60px;
+    margin-top:30px;
+}
+.chanwen .wenmain .wenleft p img{
+    display: block;
+     width:23px;
+    height: 29px;
+    float: left;
+}
+.chanwen .wenmain .wenleft p span{
+    display: block;
+     width:200px;
+    height: 29px;
+    float: left;
+    line-height: 29px;
+    margin-left:10px;
+    font-weight:bolder;
+    font-size:16px;
+}
+.chanwen .wenmain .wenleft ul{
+    display: inline-block;
+     width:540px;
+    height: 29px;
+} 
+.chanwen .wenmain .wenleft ul li{
+   float:left;
+   margin-left:78px;
+   line-height: 40px;
+}
+.chanwen .wenmain .wenleft ul li a{
+  color: #000;
+}
+.chanwen .wenmain .wenright{
+    width: 540px;
+    height: 200px;
+    float: right;
+     padding:10px 60px;
+     margin-top:30px;
+}
+.chanwen .wenmain .wenright p img{
+    display: block;
+     width:23px;
+    height: 29px;
+    float: left;
+}
+.chanwen .wenmain .wenright p span{
+    display: block;
+     width:200px;
+    height: 29px;
+    float: left;
+    line-height: 29px;
+    margin-left:10px;
+    font-weight:bolder;
+    font-size:16px;
+}
+.chanwen .wenmain .wenright ul{
+    display: inline-block;
+     width:420px;
+    height: 29px;
+} 
+.chanwen .wenmain .wenright ul li{
+   float:left;
+   margin-left:62px;
+   line-height: 40px;
+}
+.chanwen .wenmain .wenright ul li a{
+  color: #000;
+}
+/*东方瑞通华为实验室*/
+.waitthere{
+    max-width: 100%;
+    min-width: 1200px;
+    height:587px;
+    background-color:#fff;
+}
+.waitthere .waittheremian{
+    width: 1200px;
+    height:587px;
+    margin:0 auto;
+}
+.waitthere .waittheremian img{
+     display: block;
+    width: 1196px;
+    height:391px;
+    margin:30px auto 0 auto;
+}
+/*HCIE带来无限价值*/
+.wuxianjia{
+    max-width: 100%;
+    min-width: 1200px;
+    height:370px;
+    background-color:#f3f3f3;
+}
+.wuxianjia .wuxianmian{
+   width: 1200px;
+    height:370px;
+    margin:0 auto;
+}
+.wuxianjia .wuxianmian img{
+    display: block;
+    width: 1196px;
+    height: 170px;
+    margin-top:30px;
+}
+/*成为HCIE，你需要具备以下能力*/
+.wuxianjiaq{
+    max-width: 100%;
+    min-width: 1200px;
+    height:715px;
+}
+.wuxianjiaq .wuxianmianq{
+   width: 1200px;
+    height:715px;
+    margin:0 auto;
+}
+.wuxianjiaq .wuxianmianq img{
+    display: block;
+   width:913px;
+   height: 506px;
+    margin:40px auto 0 auto;
+}
+/*我们培养的HCIE 学员*/
+.wuxianjiaqm{
+    max-width: 100%;
+    min-width: 1200px;
+    height:558px;
+   background:url(../images/wer.png) no-repeat;
+   background-size: 100% 100%;
+}
+.wuxianjiaqm .wuxianmianqm{
+   width: 1200px;
+    height:558px;
+    margin:0 auto;
+}
+.wuxianjiaqm .wuxianmianqm img{
+    display: block;
+   width:1200px;
+   height:374px;
+    margin:40px auto 0 auto;
+}
+/*师资力量*/
+.teacherzi{
+    max-width: 100%;
+    min-width: 1200px;
+    height:720px;
+}
+.teacherzi .mianzhong{
+    width: 1200px;
+    height:720px;
+    margin:0 auto;
+}
+.teacherzi .mianzhong .tianyi{
+  line-height:30px;
+}
+.teacherzi .mianzhong .tianzong{
+  width:1200px; 
+  height:420px;
+  margin-top:30px;
+}
+.teacherzi .mianzhong .tianzong .tianleft{
+  width:702px; 
+  height:324px;
+  float: left;
+}
+.teacherzi .mianzhong .tianzong .tianright{
+  width:450px; 
+  height:420px;
+  float: right;
+  border:1px solid #999;
+  padding:20px 30px;
+}
+/*底部浮动*/
+ form{
+    width: 1200px;
+    height: 100px;
+    margin:0 auto;
+}
+form input{
+    width: 170px;
+    height: 40px;
+    border:1px solid #999;
+    padding:5px 10px;
+    margin:30px 0;
+}
+#sumit{
+    width: 230px;
+    height: 40px;
+    background-color: #eb6100;
+    border:none;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bolder;
+}

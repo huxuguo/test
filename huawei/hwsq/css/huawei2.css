@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+body{font-size:14px; font-family:"微软雅黑";}
+img{border:none;display:inline-block;}
+li{list-style:none;}
+input{outline:none; border:none; }
+a{text-decoration:none;cursor:pointer;}
+
+h3{
+  font-size: 30px;
+  text-align: center;
+    padding-top: 65px;
+}
+.bannery{
+    max-width: 100%;
+    min-width: 1200px;
+}
+.bannery img {
+    display: block;
+    width: 100%;
+}
+.huaweiti{
+    max-width: 100%;
+    min-width: 1200px;
+    height: 150px;
+    background-color: #f3f3f3;
+}
+.huaweiti .tixi{
+    width: 1200px;
+    height: 150px;
+    margin:0 auto;
+    padding:40px 0;
+    line-height: 30px;
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 65px;
+}
+/*课程设置*/
+.shezhi{
+    max-width: 100%;
+    min-width: 1200px;
+    height:540px;
+}
+.shezhi .shemain{
+    width: 1200px;
+    height:540px;
+    margin:0 auto;
+}
+.shezhi .shemain img{
+    display: block;
+    width: 1198px;
+    height:329px;
+}
+/*选择瑞通可获取的服务*/
+.huofun{
+    max-width: 100%;
+    min-width: 1200px;
+    height:340px;
+    background-color: #f3f3f3;
+}
+.huofun .huomian{
+    width: 1160px;
+    height:340px;
+    margin:0 auto;
+}
+.huofun .huomian .imgleft{
+    width: 337px;
+    height:165px;
+    float: left;
+}
+.huofun .huomian .rightduo{
+    width: 770px;
+    height:165px;
+    float: right;
+    line-height: 30px;
+}
+/*东方瑞通华为实验室*/
+.waittherep{
+    max-width: 100%;
+    min-width: 1200px;
+    height:710px;
+    background-color:#fff;
+}
+.waittherep .waittheremianp{
+    width: 1200px;
+    height:587px;
+    margin:0 auto;
+}
+.waittherep .waittheremianp img{
+     display: block;
+    width: 998px;
+    height:464px;
+    margin:0 auto;
+}
+/*师资力量*/
+.teacherzi{
+    max-width: 100%;
+    min-width: 1200px;
+    height:720px;
+}
+.teacherzi .mianzhong{
+    width: 1200px;
+    height:720px;
+    margin:0 auto;
+}
+.teacherzi .mianzhong .tianyi{
+  line-height:30px;
+}
+.teacherzi .mianzhong .tianzong{
+  width:1200px; 
+  height:420px;
+  margin-top:30px;
+}
+.teacherzi .mianzhong .tianzong .tianleft{
+  width:702px; 
+  height:324px;
+  float: left;
+}
+.teacherzi .mianzhong .tianzong .tianright{
+  width:450px; 
+  height:420px;
+  float: right;
+  border:1px solid #999;
+  padding:20px 30px;
+}
+/*东方瑞通华为培训开课计划*/
+.jikaihua{
+    max-width: 100%;
+    min-width: 1200px;
+    height:435px;
+    background-color: #f3f3f3;
+}
+.jikaihua .jihuanmain{
+    width: 1200px;
+    height:435px;
+    margin:0 auto;
+}
+.jikaihua .jihuanmain table{
+    width: 1200px;
+    height:280px;
+    margin-top:20px;
+}
+.jikaihua .jihuanmain table tr th{
+    text-align:left;
+}
+/*底部浮动*/
+ form{
+    width: 1200px;
+    height: 100px;
+    margin:0 auto;
+}
+form input{
+    width: 170px;
+    height: 40px;
+    border:1px solid #999;
+    padding:5px 10px;
+    margin:30px 0;
+}
+#sumit{
+    width: 230px;
+    height: 40px;
+    background-color: #eb6100;
+    border:none;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bolder;
+}
